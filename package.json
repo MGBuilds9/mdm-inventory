@@ -1,0 +1,26 @@
+{
+  "name": "mdm-inventory",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm --parallel --filter \"./apps/*\" dev",
+    "build": "pnpm --filter \"./apps/*\" build",
+    "start": "pnpm --filter \"./apps/*\" start",
+    "db:migrate": "pnpm --filter \"./apps/server\" db:migrate",
+    "db:seed": "pnpm --filter \"./apps/server\" db:seed",
+    "db:studio": "pnpm --filter \"./apps/server\" db:studio",
+    "test": "pnpm --filter \"./apps/*\" test",
+    "lint": "pnpm --filter \"./apps/*\" lint",
+    "type-check": "pnpm --filter \"./apps/*\" type-check"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.8.3",
+    "prettier": "^3.0.0",
+    "eslint": "^9.25.0"
+  }
+}
