@@ -12,6 +12,8 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: false,
   },
+  // Ensure Vercel can find the app directory
+  distDir: '.next',
 }
 
 module.exports = nextConfig
