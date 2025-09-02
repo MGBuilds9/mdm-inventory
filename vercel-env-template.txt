@@ -1,0 +1,10 @@
+# Vercel Environment Variables
+# Copy these to your Vercel project dashboard under Settings > Environment Variables
+
+# Supabase Configuration
+VITE_SUPABASE_URL=your_supabase_project_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+
+# Optional: Analytics and Monitoring
+NEXT_PUBLIC_VERCEL_ANALYTICS_ID=your_vercel_analytics_id
+NEXT_PUBLIC_VERCEL_SPEED_INSIGHTS_ID=your_vercel_speed_insights_id

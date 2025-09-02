@@ -1,0 +1,11 @@
+# Clerk Authentication
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_your_clerk_publishable_key
+CLERK_SECRET_KEY=sk_test_your_clerk_secret_key
+CLERK_WEBHOOK_SECRET=whsec_your_clerk_webhook_secret
+
+# Supabase Database
+DATABASE_URL=postgresql://postgres:[password]@[host]:5432/postgres?pgbouncer=true&sslmode=require
+DIRECT_URL=postgresql://postgres:[password]@[host]:5432/postgres?sslmode=require
+
+# Optional
+NEXT_PUBLIC_API_BASE_URL=https://your-domain.vercel.app
